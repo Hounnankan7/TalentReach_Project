@@ -87,7 +87,7 @@
 
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-regular fa-newspaper fa-xl"></i>Articles</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-people-group fa-xl"></i>Personnes</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-people-group fa-xl"></i>Candidats</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-briefcase fa-xl"></i>Offres d'emplois</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#">S'inscrire</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#">S'identifier</a></li>
@@ -97,9 +97,9 @@
         </nav>
     </header>
 
-    <section>
+    <section class="login_section">
         <div class="login_form">
-            <h1 class="text_homepage" style="margin-top: 40px; margin-bottom: 30px; font-size: 65px;">Bienvenue sur la communauté professionnelle du Bénin</h1>
+            <h1 class="text_homepage" style="margin-top: 40px; margin-bottom: 30px; font-size: 65px;">Bienvenue sur la communauté professionnelle du Benin</h1>
             <form class="container">
 
                 <div class="form-floating mb-4">
@@ -118,13 +118,21 @@
         <div class="img_homepage">
             <img src="01_ressources/img/simple_homepage.png" alt="">
         </div>
-    </section style="background-color: #dbd8d8; height: 100px;">
+    </section >
 
-    <section>
-
+    <section class="candidats_section" style="background-color: #dbd8d8; height: 100px;margin-left: 0px;margin-right: 0px;margin-bottom: 12px;">
+    
     </section>
 
-    <footer>
+    <section class="companies_section" style="background-color: #dbd8d8; height: 100px;margin-left: 0px;margin-right: 0px;margin-bottom: 12px;">
+    
+    </section>
+
+    <section class="stats_section" style="background-color: #dbd8d8; height: 100px;margin-left: 0px;margin-right: 0px;margin-bottom: 12px;">
+    
+    </section>
+
+    <footer style="margin-top: 12px;margin-bottom: 12px;">
 
     </footer>
 
