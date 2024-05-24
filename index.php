@@ -89,7 +89,7 @@
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-regular fa-newspaper fa-xl"></i>Articles</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-people-group fa-xl"></i>Candidats</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-briefcase fa-xl"></i>Offres d'emplois</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">S'inscrire</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="s_inscrire.php">S'inscrire</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#">S'identifier</a></li>
                 </ul>
 
@@ -113,7 +113,7 @@
 
                 <button type="submit" class="btn btn-primary large">S'identifier</button>
             </form>
-            <p style="margin-top: 12px;" class="text_signin">Nouveau sur TalentReach ? <a href="#">S’inscrire</a></p>
+            <p style="margin-top: 12px;" class="text_signin">Nouveau sur TalentReach ? <a href="s_inscrire.php">S’inscrire</a></p>
         </div>
         <div class="img_homepage">
             <img src="01_ressources/img/simple_homepage.png" alt="">
@@ -132,8 +132,23 @@
     
     </section>
 
-    <footer style="margin-top: 12px;margin-bottom: 12px;">
-
+    <footer class="bg-dark text-white mt-5" style="margin-top: 12px;">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Column 1</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Column 2</h5>
+                    <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Column 3</h5>
+                    <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
