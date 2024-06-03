@@ -14,12 +14,14 @@
         nav{
             margin-right: 10%; /* Ajustez la valeur selon vos besoins */
             margin-left: 10%; /* Ajustez la valeur selon vos besoins */
+            
 
         }
 
         /* Ajout d'un espacement entre les <li> */
         .navbar-nav .nav-item {
             margin-right: 20px; /* Ajustez la valeur selon vos besoins */
+
         }
 
         /* Centrage des icônes au-dessus des liens */
@@ -29,6 +31,16 @@
             align-items: center;
             text-align: center;
             margin-top: 12px;
+            color: white;
+        }
+
+        .navbar-nav .nav-item .btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 12px;
+            color: white;
         }
 
         /* Ajout d'un espacement entre les icônes et le texte */
@@ -36,55 +48,42 @@
             margin-bottom: 12px; /* Ajustez la valeur selon vos besoins */
         }
 
-        .large{
-            font-size: 18px;
-            width: 150px;
-            --bs-btn-border-radius: 20px; /* Maintient les coins arrondis */
-        }
 
-        /* Styles pour placer login_form et img_homepage côte à côte */
-        section {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            max-width: 100%;
-            margin-right: 10%; /* Ajustez la valeur selon vos besoins */
-            margin-left: 10%; /* Ajustez la valeur selon vos besoins */
-        }
+        .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-        .login_form {
-            flex: 1;
-            margin-right: 20px; /* Ajustez la valeur selon vos besoins */
-        }
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+}
 
-        .img_homepage {
-            flex: 1;
-        }
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-        .img_homepage img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Pour centrer le contenu de login_form */
-        .login_form .container {
-            width: 60%;
-            margin-left: 0px;
-            margin-right: 0px;
-            padding-left: 0px;
-           
-        }
+.footer-icons li {
+  margin: 0 10px;
+}
 
     </style>
 
 </head>
 <body>
 
-    <header>
+    <header style="background-color: #212529;">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand"><img class="logo" src="" alt="" width="" height="">TalentReach</a>
-
+                <a href="#" class="navbar-brand" style="color: white;"><img class="logo" src="" alt="" width="" height="">TalentReach</a>
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-regular fa-newspaper fa-xl"></i>Articles</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-people-group fa-xl"></i>Candidats</a></li>
@@ -92,62 +91,26 @@
                     <li class="nav-item"><a class="nav-link active" href="s_inscrire.php">S'inscrire</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#">S'identifier</a></li>
                 </ul>
-
             </div>
         </nav>
     </header>
 
-    <section class="login_section">
-        <div class="login_form">
-            <h1 class="text_homepage" style="margin-top: 40px; margin-bottom: 30px; font-size: 65px;">Bienvenue sur la communauté professionnelle du Benin</h1>
-            <form class="container">
+    <section class="">
 
-                <div class="form-floating mb-4">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="Email" name="email" required>
-                    <label for="floatingInput">Email ou téléphone</label>
-                </div>
-                <div class="form-floating mb-4">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Mot de passe" name="password" required>
-                    <label for="floatingPassword">Mot de passe</label>
-                </div>
+        
 
-                <button type="submit" class="btn btn-primary large">S'identifier</button>
-            </form>
-            <p style="margin-top: 12px;" class="text_signin">Nouveau sur TalentReach ? <a href="s_inscrire.php">S’inscrire</a></p>
-        </div>
-        <div class="img_homepage">
-            <img src="01_ressources/img/simple_homepage.png" alt="">
-        </div>
-    </section >
-
-    <section class="candidats_section" style="background-color: #dbd8d8; height: 100px;margin-left: 0px;margin-right: 0px;margin-bottom: 12px;">
-    
     </section>
 
-    <section class="companies_section" style="background-color: #dbd8d8; height: 100px;margin-left: 0px;margin-right: 0px;margin-bottom: 12px;">
-    
-    </section>
-
-    <section class="stats_section" style="background-color: #dbd8d8; height: 100px;margin-left: 0px;margin-right: 0px;margin-bottom: 12px;">
-    
-    </section>
 
     <footer class="bg-dark text-white mt-5" style="margin-top: 12px;">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Column 1</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Column 2</h5>
-                    <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Column 3</h5>
-                    <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
-                </div>
-            </div>
+        <div class="footer-content" style="margin-top: 18px;margin-bottom: 18px;">
+            <p>CONTACTEZ-NOUS :</p>
+            <ul class="footer-icons">
+                <li><a class="nav-link active" href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                <li><a class="nav-link active" href="#"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+                <li><a class="nav-link active" href="#"><i class="fa-solid fa-earth-africa fa-2xl"></i></a></li>
+            </ul>
+
         </div>
     </footer>
 
